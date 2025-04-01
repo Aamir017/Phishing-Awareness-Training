@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Awareness Training</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Phishing Awareness Training</h1>
+        <p>Learn how to protect yourself from phishing attacks</p>
+    </header>
+
+    <main>
+        <section class="info-section">
+            <h2>What is Phishing?</h2>
+            <p>Phishing is a cybercrime where attackers pose as legitimate institutions to steal sensitive information like passwords, credit card numbers, and personal data.</p>
+            
+            <h2>Common Signs of Phishing:</h2>
+            <ul>
+                <li>Urgent or threatening language</li>
+                <li>Requests for sensitive information</li>
+                <li>Poor grammar and spelling</li>
+                <li>Suspicious sender email addresses</li>
+                <li>Unusual links or attachments</li>
+            </ul>
+        </section>
+
+        <section class="contact-section">
+            <h2>Send Awareness Email</h2>
+            <form id="emailForm">
+                <div class="form-group">
+                    <label for="email">Recipient Email:</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" value="Phishing Awareness Training" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" required>Hello,
+
+I wanted to share some important information about phishing awareness. Here are some key points to remember:
+
+1. Never click on suspicious links
+2. Verify sender email addresses
+3. Don't share sensitive information via email
+4. Report suspicious emails to your IT department
+
+Stay safe online!
+
+Best regards,
+Your Security Team</textarea>
+                </div>
+                <button type="submit">Send Email</button>
+            </form>
+        </section>
+
+        <section class="voice-training-section">
+            <h2>Interactive Voice Training</h2>
+            <p>Experience a simulated phishing awareness training call.</p>
+            <div class="voice-controls">
+                <button id="startCall">Start Training Call</button>
+                <button id="endCall" disabled>End Call</button>
+            </div>
+            <div class="call-status">
+                <p id="callStatus">Ready to start training</p>
+            </div>
+            <div class="call-content">
+                <div id="callerInfo" class="hidden">
+                    <p>Caller: <span id="callerName">Security Training Team</span></p>
+                    <p>Number: <span id="callerNumber">+1 (555) 123-4567</span></p>
+                </div>
+                <div id="callTranscript" class="transcript-box">
+                    <p>Click 'Start Training Call' to begin the interactive training session.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Phishing Awareness Training. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
