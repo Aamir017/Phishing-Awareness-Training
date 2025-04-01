@@ -57,4 +57,4 @@ This tool is for educational purposes only. Always maintain ethical practices an
 
 ## License
 
-MIT License - feel free to use this project for your own phishing awareness training. 
+MIT License - feel free to use this project for your own phishing awareness training. # Phishing-Awareness-Training
